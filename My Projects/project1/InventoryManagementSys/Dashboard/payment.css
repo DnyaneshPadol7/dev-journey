@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+html,body{
+    
+    height: 100%;
+}
+.receipt{
+    border: none;
+}
+
+body{
+    background:white;
+    background-size: 100% 100%;
+    padding: 1.5rem;
+
+    line-height: 1.6;
+  
+}
+span{
+    color: red;
+}
+
+.header{
+    box-shadow: 0px 0px 4px rgba(10, 10, 10, 10);
+   
+}
+#invoice_no{
+    width:110px;
+    margin-left:11px;
+}
+
+#customerName{
+    width:110px;
+}
+#customerPhone{
+width:110px;
+    margin-left:23px;
+}
+#totalAmount{
+    width:110px;
+}
+#invoiceDate{
+    width:110px;
+}
+.idate{
+    margin-left: 63px;
+}
+.note{
+    height:24px;
+    width:200px;
+    padding-bottom: 5px;
+}
+#pnote{
+   
+  padding-left:70px;
+  padding-bottom:5px;
+}
+.pamount{
+     height: 24px;
+    margin-left:32px;
+    width:113px;
+}
+.pay-method{
+    height:24px;
+width:auto;}
+.reference{
+     width:199px;
+}
+.ref{
+    margin-left: 7px
+}
+.input-box{
+    border:1px solid;
+    margin-top:50px;
+}
+form label{
+margin-top: 1rem;
+color: #5c39d1;
+font-size: 1rem; 
+}
+textarea{
+    margin-top: 20px;
+    
+}
+form input,
+form select,
+form textarea{
+     width: 25%;
+    padding-left:5px;
+    border-radius: 5px;
+    border: 1px solid #5c39d1;
+    font-size: 14px;
+    transition: border 0.3s ease;
+
+}
+.submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.total{
+    margin-top: 40px;
+}
+
+#flexRadioDefault1, #flexRadioDefault2{
+    margin-top: 22px;
+}
+
+
+button{
+    display: block;
+    width: 20%;
+    margin-top: 1.5rem;
+    padding:5px;
+    background-color: #5c39d1;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color:#2d1677 ;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 425px){
+    .container{
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    button{
+        font-size: .9rem;
+        padding: 0.75rem;
+    }
+}
+
+/*Optional Dark mode support*/
+/* @media (prefers-color-scheme: ) { after the colon put word
+    body{
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    .container{
+        background-color: #1e1e1e;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+    
+    form label,
+    form input,
+    form select{
+        background-color: #000000;
+        border: 1px solid aqua;
+        color: #ffe8e8;
+    }
+
+    button{
+        background-color: aqua;
+    }
+    button:hover{
+        background-color: aquamarine;
+    }
+    h1{
+        color: aqua;
+    }
+} */

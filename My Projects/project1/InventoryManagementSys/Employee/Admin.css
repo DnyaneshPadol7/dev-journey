@@ -1,0 +1,93 @@
+/* Background and base style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#baa3ff, #93abff) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+/* Header */
+header {
+    background-color: #5a35c0;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logout {
+    bottom: 15px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: transform 0.3s;
+
+}
+
+.logout:hover {
+    color: rgb(255, 0, 0);
+    transform: translateX(2px);
+}
+
+.logout-icon {
+    font-size: 1.2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+/* Card layout */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card span {
+    font-size: 2.5rem;
+    background-color: #5a35c0;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.card p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.adbtn {
+    text-decoration: none;
+}

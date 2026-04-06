@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 9);
+    margin-top: 4rem;
+}
+.login {
+   display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #5c39d1;
+}
+
+.login a {
+  color: #5c39d1; /* match theme color */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.login a:hover {
+  color: #2d1677; /* dark purple on hover */
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="register.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="con2"> -->
+        <h1>Registration Form</h1>
+        <form action="./register.php" method="post">
+            <label for="username">Enter Username</label>
+            <input type="text" id="username" name="username" required>
+            <small id="userNameError" class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <small id="emailError" class="error"></small>
+
+            <label for="mobileNo">Enter Your Mobile No.</label>
+            <input type="tel" id="mobileNo" name="mobileNo" required minlength="10" maxlength="10">
+            <small id="mobileNoError" class="error"></small>
+
+            <label for="password">Create Your Password</label>
+            <input type="password" id="password" name="password" required minlength="8" maxlength="20">
+            <small id="passwordError" class="error"></small>
+
+            <button name="submit">Submit</button>
+            
+            <div class="login">
+               <p>Have an Account ? <a href="login.html" color="blue">click here</a></p>
+            </div>
+        </form>
+        <!-- </div> -->
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>

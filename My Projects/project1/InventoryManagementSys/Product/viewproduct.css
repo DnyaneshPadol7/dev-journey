@@ -1,0 +1,75 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ /* Label style for headings */
+.form-label {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5c39d1;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.table thead {
+    background-color: #5c39d1;   /* same theme color as buttons/labels */
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.table th{
+    background-color: #5c39d1;
+    color: white;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f3f0ff;  /* light violet striping */
+}
+
+.table tbody tr:hover {
+    background-color: #e0d6ff;  /* hover effect */
+}
+
+.product{
+    padding: 1rem;
+}
+
+.save-btn {
+    width: 125px;
+    height: 40px;
+    margin-right: 17px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0.0, 0, 0.0, 0.6);
+    background-color: #5c39d1;   /* same theme color as buttons/labels */
+}
+
+button:hover {
+    background-color: #2d1677;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+}

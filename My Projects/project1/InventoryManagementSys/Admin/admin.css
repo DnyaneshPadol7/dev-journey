@@ -1,0 +1,62 @@
+/* Background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#baa3ff, #93abff) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.adbar {
+    background-color: #5a35c0 !important;
+    font-size: 0.8rem;
+}
+
+
+
+.maintitle {
+    font-size: 1.4rem;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* Custom Card (avoid Bootstrap conflict) */
+.dashboard-card {
+    background: white;
+    padding: 2rem;
+    width: 270px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-6px);
+}
+
+.dashboard-card span {
+    font-size: 2.3rem;
+    background-color: #5a35c0;
+    color: white;
+    padding: 0.6rem 0.7rem;
+    border-radius: 50%;
+    margin-bottom: 0.7rem;
+    display: inline-block;
+}
+
+.dashboard-card p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
+}
