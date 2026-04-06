@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span class="material-symbols-rounded">lock</span>
+            <span>Admin Panel</span>
+        </div>
+
+        
+
+        <a href="../Login/logout.php" class="logout">
+            <span class="material-symbols-rounded logout-icon">logout</span>Logout
+        </a>
+    </header>
+
+    <main class="cards-container">
+        <div class="card" onclick="window.location.href='../Sales/sales1.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">trending_up</span>
+            <p>Sales</p>
+        </div>
+        
+        <div class="card" onclick="window.location.href='../Purchase/Purchase1.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">shopping_bag</span>
+            <p>Purchase</p>
+        </div>
+        
+        <div class="card" onclick="window.location.href='../Product/viewProduct.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">add_shopping_cart</span>
+            <p>Products</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='../Customer/viewCustomer.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">contacts_product</span>
+            <p>Customers</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='../Seller/viewSeller.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">contacts_product</span>
+            <p>Sellers</p>
+        </div>
+        
+        <div class="card" onclick="window.location.href='../Employee/user.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">group</span>
+            <p>Users</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='../Dashboard/showOutseller.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">receipt_long</span>
+            <p>Seller Outstandings</p>
+        </div>
+
+        
+        
+         <div class="card" onclick="window.location.href='../Dashboard/showOutstanding.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">account_balance_wallet</span>
+            <p>Customer Outstandings</p>
+        </div>
+        
+
+
+        <div class="card" onclick="window.location.href='../Bill/showSales.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">sell</span>
+            <p>Show Sales</p>
+        </div>
+
+       <div class="card" onclick="window.location.href='../Bill/showPurchase.php'" style="cursor: pointer;">
+            <span class="material-symbols-rounded">inventory</span>
+            <p>Show Purchase</p>
+        </div>
+    </main>
+</body>
+
+</html>

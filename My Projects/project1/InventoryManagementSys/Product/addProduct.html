@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="../Login/login.css">
+
+
+<!-- Bootstrap-Select CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta3/css/bootstrap-select.min.css">
+
+
+</head>
+
+<body class="d-flex justify-content-center align-items-center ">
+
+
+    <div class="containerAddProdcut">
+        <!-- <div class="con2"> -->
+        <h1>Add Product</h1>
+        <form action="../Product/addProduct.php" autocomplete="off" method="post" onsubmit="return validateForm() ">
+            <label for="UserName">Product Name</label>
+            <input type="text" id="product" name="product_name" required><span id="spm"></span>
+
+            <label for="category">Product Category</label>
+            <select id="category" name="category" required>
+                <option value="">-- Select Category --</option>
+                <option value="clothes">Clothes</option>
+                <option value="beauty">Beauty</option>
+                <option value="grocery">Grocery</option>
+                <option value="electronics">Electronics</option>
+                <option value="toys">Toys</option>
+                <option value="furniture">Furniture</option>
+                <option value="books">Books</option>
+                <option value="sports">Sports</option>
+                <option value="footwear">Footwear</option> 
+                <option value="jewellery">Jewellery</option>
+                <option value="kitchen">Kitchen</option>
+                <option value="stationery">Stationery</option>
+                <option value="automobile">Automobile</option>
+                <option value="health">Health & Personal Care</option>
+                <option value="mobile">Mobiles & Accessories</option>
+                <option value="home">Home Decor</option>
+            </select>
+
+
+            <label for="Mobile">Unit of Measure </label>
+            <input type="text" name="measure_unit" id="unit-list" list="UOM">
+            <datalist id="UOM">
+                <option value="">Select Unit</option>
+                <option value="Pieces"></option>
+                <option value="kg"></option>
+                <option value="Boxes"></option>
+                <option value="Liter"></option>
+                <option value="Meter"></option>
+
+            </datalist>
+            <label for="email">Enter Unit Price</label>
+            <input type="number" id="unit_price" name="unit_price" required><span id="spme"></span>
+            <label for="address">Description</label>
+            <input type="text" id="description" name="description"><span id="s"></span>
+
+            <button class="" name="submit">Submit to Save</button>
+        </form>
+        <!-- </div> -->
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../Login/register.php"></script> -->
+</body>
+
+</html>

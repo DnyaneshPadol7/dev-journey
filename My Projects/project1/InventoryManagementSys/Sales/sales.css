@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5c39d1;
+}
+
+html,
+body {
+
+    height: 100%;
+}
+
+h2 {
+    font-size: 22px;
+      margin-bottom: -10px;
+    margin-top:-15px;
+    font-weight: 400;
+}
+#hrline{
+    margin-top: -15px;
+}
+.payment,
+.cuctomer,
+.invoice,
+.grandTotl {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    width: 120px;
+
+
+}
+#invoiceid{
+    height: 25px;
+    padding: 5px;
+}
+body {
+    background: white;
+    background-size: 100% 100%;
+    padding: 1.5rem;
+
+    line-height: 1.6;
+
+}
+
+span {
+    color: red;
+}
+
+/* .container{
+    /* width: 100%; */
+    /* height: 90vh;
+    max-width: 90vw;
+    background:transparent;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+} */
+
+.table.table-bordered {
+    table-layout: fixed;
+    width:80%;
+    height: 30px;
+     margin:-10px 0 -10px
+}
+
+.table.table-bordered td {
+    padding: 3px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.table.table-bordered th {
+    font-size:13px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 { 
+
+    text-align: center;
+    margin: 1.5rem;
+    color: #5c39d1;
+    font-size: 1.75rem;
+}
+
+form label {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 2px;
+    color: #5c39d1;
+    font-size: 1.rem;
+
+}
+
+#customerSelect,
+#selectProduct,
+#paymentTerm {
+    height: 25px;
+    padding:0px;
+}
+#date{
+    width: 120px;
+}
+form input,
+form select,
+form textarea {
+    height: 25px;
+    width: 120px !important;
+    padding: 2px;
+    /* padding: 0.75rem; */
+    /* margin-top: 0.5rem; */
+    border-radius: 5px;
+    border: 1.4px solid #5c39d1;
+    font-size: 12px;
+    transition: border 0.3s ease;
+}
+
+
+.grandTotl {
+    width: 100px;
+    padding: 5px;
+
+}
+
+button {
+    width: 12%;
+    align-items: center;
+    padding: 0.3em;
+    margin-top: 9rem;
+    background-color: #5c39d1;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.productSelect,
+.seller,
+.payment {
+    width: 170px;
+    height: 37px;
+}
+
+.removeBtn {
+    width: 40px;
+    height: 22px;
+    margin-left:37px;
+    padding:0;
+}
+
+.save-btn {
+    width: 150px;
+    margin-right: 20px;
+}
+
+#addProductBtn {
+    display: none;
+}
+
+button:hover {
+    background-color: #2d1677;
+}
+
+.newAc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #5c39d1;
+    font-size: 0.8rem;
+}
+
+
+
+/* Responsive Tweaks */
+@media (max-width: 425px) {
+    .container {
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: .9rem;
+        padding: 0.75rem;
+    }
+}
+
+/*Optional Dark mode support*/
+/* @media (prefers-color-scheme: ) { after the colon put word
+    body{
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    .container{
+        background-color: #1e1e1e;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    }
+    
+    form label,
+    form input,
+    form select{
+        background-color: #000000;
+        border: 1px solid aqua;
+        color: #ffe8e8;
+    }
+
+    button{
+        background-color: aqua;
+    }
+    button:hover{
+        background-color: aquamarine;
+    }
+    h1{
+        color: aqua;
+    }
+} */

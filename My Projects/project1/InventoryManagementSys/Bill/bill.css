@@ -1,0 +1,20 @@
+@media print {
+  button, .no-print {
+    display: none !important;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+.form-label {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5c39d1;
+}
